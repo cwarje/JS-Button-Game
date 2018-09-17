@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Button Game</title>
+    <meta name="description" content="Random Button Game>
+    <meta name="author" content="Cameron Warje">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Score -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm text-center">
+                <div id="score" class="unselectable">0</div>
+            </div>
+        </div>
+    </div>
+    <!-- Blue Button Wrapper -->
+    <div id="blue" class="buttonWrapper">
+        <button id="blueButton" type="button" class="btn btn-primary btn-block" onclick="incrementScore()">Click me!</button>
+    </div>
+    <!-- Red Button Wrapper -->
+    <div id="red" class="buttonWrapper">
+        <button id="redButton" type="button" class="btn btn-danger btn-block" onclick="decrementScore()">Not me!</button>
+    </div>
+    <!-- Scripts -->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
